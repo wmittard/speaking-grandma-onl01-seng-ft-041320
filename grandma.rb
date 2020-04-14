@@ -7,7 +7,7 @@
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
 
-# 'I LOVE YOU TOO PUMPKIN!'
+# 'NO, NOT SINCE 1938!'
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
@@ -16,4 +16,8 @@ def speak_to_grandma(greeting)
   if greeting.upcase == "I LOVE YOU GRANDMA!"
     'I LOVE YOU TOO PUMPKIN!'
   elsif greeting.upcase == greeting
+    "NO NOT SINCE 1938" 
+  else 
+    
+  
   
